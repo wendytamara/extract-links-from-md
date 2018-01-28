@@ -1,0 +1,34 @@
+{
+  "name": "markdown-links",
+  "version": "1.0.0",
+  "description": "Extraer links de archivos Markdown",
+  "main": "index.js",
+  "scripts": { 
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendytamara/extract-links-from-md.git"
+  },
+  "keywords": [
+    "markdown",
+    "string",
+    "links",
+    "link",
+    "nodejs",
+    "urls",
+    "url",
+    "extract"
+  ],
+  "author": "Nelida Wendy Claudia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendytamara/extract-links-from-md/issues"
+  },
+  "homepage": "https://github.com/wendytamara/extract-links-from-md#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
