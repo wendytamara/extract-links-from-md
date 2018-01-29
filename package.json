@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Extraer links de archivos Markdown",
   "main": "index.js",
-  "scripts": { 
+  "scripts": {
     "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
