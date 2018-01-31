@@ -20,6 +20,8 @@ Este proyecto consiste en implementar un módulo de Node.js que reciba un string
 ## Planificación
 ![planificación](https://fotos.subefotos.com/72bcb5896fcea0ea64f88392f4b75898o.jpg)
 
+Para mas detalles ver el siguiente link https://trello.com/b/dixHJVhT/librer%C3%ADa-js
+
 ##  Inicializando
 
 Para usar Markdown Links, deberá descargar ... y agregarlo a su carpeta js. O bien, puede agregar esta línea de código en el encabezado o en el cuerpo de su página:
