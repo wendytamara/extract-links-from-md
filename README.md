@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="assets/images/logo.png">
+	<img src="demo/assets/images/logo.png">
 	</img>
 </p>
 <p align="center">
@@ -16,6 +16,9 @@ Módulo de Node.js extrae todos los links encontrados en un string (formato Mark
 ##  Descripción general
 
 Este proyecto consiste en implementar un módulo de Node.js que reciba un string (en formato Markdown) y extraiga todos los links encontrados, devolviendolo en un arreglo de objetos.
+
+## Planificación
+![planificación](https://fotos.subefotos.com/72bcb5896fcea0ea64f88392f4b75898o.jpg)
 
 ##  Inicializando
 
