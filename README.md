@@ -78,7 +78,7 @@ Dividimos nuestras tareas por semana:
 Puedes visitar nuestro tablero ingresando https://trello.com/b/dixHJVhT/librer%C3%ADa-js
 
 
-![planificación](demo/assets/images/o.jpg)
+![planificación](demo/assets/images/TRELLO.png)
 
 
 
@@ -107,11 +107,12 @@ Publicar nuestro primer modulo de Node.js
 y que este pueda ser reutilizado en futuros proyectos o por la comunidad en general
 
 
-##  funcion
 
+##  Funcion
 Funcion principal **markdownLinks** que recibe como parametro un string (en formato markdown) y mediante una expresion regular extrae todos los links Y los retorna en un arreglo de objetos(JSON).
 
-![demo](https://j.gifs.com/JqWR0K.gif)
+
+
 
 
 ```bash
@@ -131,6 +132,7 @@ module.exports = markdownLinks = (markdown) => {
   }
   return JSON.stringify(linksMarkdown);
 };
+
 ```
 
 
@@ -138,9 +140,19 @@ module.exports = markdownLinks = (markdown) => {
 ##  Pruebas Unitarias
 
 Para asegurar las calidad de nuestro proyecto, se realizo pruebas unitarias
+(Usamos el framework Mocha y la librería de aserciones Chai)
 que comprueban que el código funciona correctamente.
 
-![demo](demo/assets/images/test.png)
+![test](https://j.gifs.com/86Klp3.gif)
+
+
+
+
+## DEMO
+
+Se realizo una demo usando index.js.
+
+![demo](https://j.gifs.com/JqWR0K.gif)
 
 
 ##  Requisitos
@@ -157,8 +169,6 @@ npm install mocha -g
 npm install chai
 ```
 
-
-
 ##  Inicializando
 
 Para utilizar **L I N K S** en su proyecto , deberá ejecutar el siguiente comando en la consola de node.js
@@ -167,11 +177,10 @@ Para utilizar **L I N K S** en su proyecto , deberá ejecutar el siguiente coman
 ```bash
 $ npm install ...
 ```
-## Examples
 
 
 
-## License
+## Licencia
 
 Este proyecto está licenciado bajo la Licencia ISC - ver el archivo [LICENSE](https://www.isc.org) para más detalles.
 
