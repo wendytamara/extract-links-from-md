@@ -1,14 +1,22 @@
-# extractLinksFromMd
+<p align="center">
+	<img src="demo/assets/images/logo.png">
+	</img>
+</p>
+<p align="center">
+Módulo de Node.js extrae todos los links encontrados de un archivo markdown y los retorna en un array de objetos.
+</p>
+<p align="center">
+  <a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm version" height="18"></a>
+  <a href="https://travis-ci.org/t4t5/sweetalert"><img src="https://travis-ci.org/t4t5/sweetalert.svg" alt="Build status"/><a>
+  <a href="https://github.com/t4t5/sweetalert/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/t4t5/sweetalert.svg" />
+  </a>
+</p>
 
-* **Track:** _Common Core_
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Producto final_
+##  Objetivo
 
-***
-
-Implementar un módulo de Node.js que reciba un string (en formato Markdown) y
-extraiga todos los links encontrados. La implementación debe ser una función que
-recibe un string y devuelve un arreglo de objetos como se muestra en el este
+Publicar nuestro primer modulo de Node.js
+y que este pueda ser reutilizado en futuros proyectos o por la comunidad en general. Teniendo como referencia el siguiente
 ejemplo:
 
 ```js
@@ -36,14 +44,6 @@ console.log(links);
 //   { href: 'http://foo.com', text: 'foo' },
 // ]
 ```
-
----------------------------------
-
-## Integrantes
-
-- **Nelida Quispe** - [@NelidaSh](https://github.com/NelidaSh)
-- **Wendy Quispe** - [@wendytamara](https://github.com/wendytamara)
-- **Claudia Garibotto** - [@Claudiagari](https://github.com/Claudiagari)
 
 ## Planificación
 
@@ -77,43 +77,13 @@ Dividimos nuestras tareas por semana:
 
 Puedes visitar nuestro tablero ingresando https://trello.com/b/dixHJVhT/librer%C3%ADa-js
 
-
 ![planificación](demo/assets/images/TRELLO.png)
-
-
 
 ***
 
+##  Desarrollo
 
-<p align="center">
-	<img src="demo/assets/images/logo.png">
-	</img>
-</p>
-<p align="center">
-Módulo de Node.js extrae todos los links encontrados de un archivo markdown y los retorna en un array de objetos.
-</p>
-<p align="center">
-  <a href="https://badge.fury.io/js/sweetalert"><img src="https://badge.fury.io/js/sweetalert.svg" alt="npm version" height="18"></a>
-  <a href="https://travis-ci.org/t4t5/sweetalert"><img src="https://travis-ci.org/t4t5/sweetalert.svg" alt="Build status"/><a>
-  <a href="https://github.com/t4t5/sweetalert/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/t4t5/sweetalert.svg" />
-  </a>
-</p>
-
-##  Objetivo
-
-
-Publicar nuestro primer modulo de Node.js
-y que este pueda ser reutilizado en futuros proyectos o por la comunidad en general
-
-
-
-##  Funcion
-Funcion principal **markdownLinks** que recibe como parametro un string (en formato markdown) y mediante una expresion regular extrae todos los links Y los retorna en un arreglo de objetos(JSON).
-
-
-
-
+Nuestra funcion principal **markdownLinks** recibe como parametro un string (en formato markdown) y mediante una expresion regular extrae todos los links Y los retorna en un arreglo de objetos (JSON).
 
 ```bash
 module.exports = markdownLinks = (markdown) => {
@@ -135,8 +105,6 @@ module.exports = markdownLinks = (markdown) => {
 
 ```
 
-
-
 ##  Pruebas Unitarias
 
 Para asegurar las calidad de nuestro proyecto, se realizo pruebas unitarias
@@ -144,9 +112,6 @@ Para asegurar las calidad de nuestro proyecto, se realizo pruebas unitarias
 que comprueban que el código funciona correctamente.
 
 ![test](https://j.gifs.com/86Klp3.gif)
-
-
-
 
 ## DEMO
 
@@ -178,7 +143,11 @@ Para utilizar **L I N K S** en su proyecto , deberá ejecutar el siguiente coman
 $ npm install ...
 ```
 
+## Autores
 
+- **Nelida Quispe** - [@NelidaSh](https://github.com/NelidaSh)
+- **Wendy Quispe** - [@wendytamara](https://github.com/wendytamara)
+- **Claudia Garibotto** - [@Claudiagari](https://github.com/Claudiagari)
 
 ## Licencia
 
