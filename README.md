@@ -19,7 +19,7 @@ Este proyecto consiste en implementar un módulo de Node.js que reciba un string
 
 ## Planificación
 
-![planificación](https://fotos.subefotos.com/2ce54dac26dee6a032c99e886d02bd2eo.jpg)
+![planificación](demo/assets/images/TRELLO.png)
 
 Para mas detalles ver el siguiente link https://trello.com/b/dixHJVhT/librer%C3%ADa-js
 
@@ -34,7 +34,7 @@ o puede instalar name usando [npm](https://npmjs.com/package/name)
 ```bash
 $ npm install ...
 ```
-## Ejemplo 
+## Ejemplo
 
 Se realizo una demo usando index.js.
 
@@ -52,7 +52,7 @@ Usamos el framework Mocha y la librería de aserciones Chai para realizar el tes
 - **Wendy Quispe** - [@wendytamara](https://github.com/wendytamara)
 - **Claudia Garibotto** - [@Claudiagari](https://github.com/Claudiagari)
 
-## Licencia 
+## Licencia
 
 Este proyecto está licenciado bajo la Licencia ISC - ver el archivo [LICENSE](https://www.isc.org) para más detalles.
 
