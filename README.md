@@ -18,7 +18,8 @@ Módulo de Node.js extrae todos los links encontrados en un string (formato Mark
 Este proyecto consiste en implementar un módulo de Node.js que reciba un string (en formato Markdown) y extraiga todos los links encontrados, devolviendolo en un arreglo de objetos.
 
 ## Planificación
-![planificación](https://fotos.subefotos.com/72bcb5896fcea0ea64f88392f4b75898o.jpg)
+
+![planificación](https://fotos.subefotos.com/2ce54dac26dee6a032c99e886d02bd2eo.jpg)
 
 Para mas detalles ver el siguiente link https://trello.com/b/dixHJVhT/librer%C3%ADa-js
 
@@ -26,22 +27,32 @@ Para mas detalles ver el siguiente link https://trello.com/b/dixHJVhT/librer%C3%
 
 Para usar Markdown Links, deberá descargar ... y agregarlo a su carpeta js. O bien, puede agregar esta línea de código en el encabezado o en el cuerpo de su página:
 ```html
-// Añadir ...
-<script src=""></script>
+//  ...
+
 ```
 o puede instalar name usando [npm](https://npmjs.com/package/name)
 ```bash
 $ npm install ...
 ```
-## Examples
+## Ejemplo 
 
-## Authors
+Se realizo una demo usando index.js.
+
+![demo](https://j.gifs.com/JqWR0K.gif)
+
+## Test
+
+Usamos el framework Mocha y la librería de aserciones Chai para realizar el test.
+
+![test](https://j.gifs.com/86Klp3.gif)
+
+## Autores
 
 - **Nelida Quispe** - [@NelidaSh](https://github.com/NelidaSh)
 - **Wendy Quispe** - [@wendytamara](https://github.com/wendytamara)
 - **Claudia Garibotto** - [@Claudiagari](https://github.com/Claudiagari)
 
-## License
+## Licencia 
 
 Este proyecto está licenciado bajo la Licencia ISC - ver el archivo [LICENSE](https://www.isc.org) para más detalles.
 
