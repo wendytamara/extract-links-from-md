@@ -7,7 +7,7 @@ module.exports = markdownLinks = (markdown) => {
   let resultUrl = markdown.match(urlRegex); // Retorna un array
   let linksMarkdown = [];
   // Iteración de todo el arreglo resultUrl y busca cada elemento para almacenarlo con push en linksMarkdown
-  for (let i = 0; i < (resultUrl.length)/2; i++) {
+  for (let i = 0; i < resultUrl.length; i += 1) {
     linksMarkdown.push(
       {href: resultUrl[i + 1],
         text: resultUrl[i] }
