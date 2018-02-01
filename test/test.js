@@ -1,7 +1,9 @@
-
 var extend = require('../src/markdown-links.js');
 var chai = require('chai');
 var assert = chai.assert;
+
+console.log('\n');
+console.log('TESTEANDO CON MOCHA Y CHAI:');
 
 describe('prueba de operaciones', function() {
   it('prueba de conversion1', function() {
