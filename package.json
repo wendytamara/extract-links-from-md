@@ -1,5 +1,5 @@
 {
-  "name": "markdown-links",
+  "name": "markdown-links-nwc",
   "version": "1.0.0",
   "description": "Extraer links de archivos Markdown",
   "main": "index.js",
