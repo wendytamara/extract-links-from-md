@@ -86,20 +86,24 @@ Puedes visitar nuestro tablero ingresando https://trello.com/b/dixHJVhT/librer%C
 Nuestra funcion principal **markdownLinks** recibe como parametro un string (en formato markdown) y mediante una expresion regular extrae todos los links Y los retorna en un arreglo de objetos (JSON).
 
 ```bash
-module.exports = markdownLinks = (markdown) => {
+markdownLinks = markdown => {
   // Expresion regular que comprueba el formato markdown de los links
-  const urlRegex = /(\[(.*?)\])|(https?|ftp):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?/gi;
-
-  let resultUrl = markdown.match(urlRegex); // Retorna un array
+  const urlRegex = /\[(.*?)\]\((.*?|(https?|ftp):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-]))\)/gi; 
+  let resultUrl = urlRegex.exec(markdown); // Retorna un array
+  console.log(resultUrl);
   let linksMarkdown = [];
-  // Iteración de todo el arreglo resultUrl y busca cada elemento para almacenarlo con push en linksMarkdown
-  for (let i = 0; i < resultUrl.length; i++) {
-    linksMarkdown.push(
-      {href: resultUrl[i + 1],
-        text: resultUrl[i] }
-    );
-    i++;
-  }
+  
+  do {
+    // Iteración de todo el arreglo resultUrl y busca cada elemento para almacenarlo con push en linksMarkdown
+    for (let i = 1; i < (resultUrl.length) / 2; i++) {
+      linksMarkdown.push(
+        {href: resultUrl[i + 1],
+          text: resultUrl[i] }
+      );
+      i++;
+    };
+  } while ((resultUrl = urlRegex.exec(markdown)) !== null);
+  console.log(linksMarkdown);
   return JSON.stringify(linksMarkdown);
 };
 
