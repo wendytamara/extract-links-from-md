@@ -105,6 +105,34 @@ module.exports = markdownLinks = (markdown) => {
 
 ```
 
+## INSTALACION
+
+
+```bash
+$ npm install markdown-links-nwc
+```
+
+
+##  API
+
+### markdown-links-nwc(markdown)
+
+**REQUISITOS:**
+
+* Crear un archivo index.js
+* Archivo markdown a la altura del index.js
+* Copiar siguiente codigo en index.js
+
+```bash
+const fs = require('fs');
+const markdownLinks = require('./node_modules/markdown-links-nwc/src/markdown-links.js');
+const strMd = fs.readFileSync('./README.md').toString();
+let links = markdownLinks(strMd);
+```
+* ejecutar node index.js
+
+
+
 ##  Pruebas Unitarias
 
 Para asegurar las calidad de nuestro proyecto, se realizo pruebas unitarias
@@ -120,28 +148,6 @@ Se realizo una demo usando index.js.
 ![demo](https://j.gifs.com/JqWR0K.gif)
 
 
-##  Requisitos
-
-**Mocha**
-
-```bash
-npm install mocha -g
-```
-
-**Chai**
-
-```bash
-npm install chai
-```
-
-##  Inicializando
-
-Para utilizar **L I N K S** en su proyecto , deberá ejecutar el siguiente comando en la consola de node.js
-
-
-```bash
-$ npm install ...
-```
 
 ## Autores
 
