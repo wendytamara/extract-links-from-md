@@ -115,6 +115,7 @@ markdownLinks = markdown => {
 ```bash
 $ npm install markdown-links-nwc
 ```
+![install](https://j.gifs.com/E9WD0W.gif)
 
 
 ##  API
@@ -147,9 +148,9 @@ que comprueban que el código funciona correctamente.
 
 ## DEMO
 
-Se realizo una demo usando index.js.
+Se realizo una demo usando un proyecto nuevo al cual se le instalo el modulo.
 
-![demo](https://j.gifs.com/JqWR0K.gif)
+![demo](https://j.gifs.com/7LVlYr.gif)
 
 
 
